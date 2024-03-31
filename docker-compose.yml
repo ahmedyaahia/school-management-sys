@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  schoolsystemlaravel:
+    image: schoolsystemlaravel
+    build:
+      context: .
+      dockerfile: ./Dockerfile
